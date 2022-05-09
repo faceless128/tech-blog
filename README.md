@@ -1,14 +1,14 @@
-# Just Tech News
+# Tech Blog
 
 ## Description
-A lightweight news aggregation system for tech news.
+A lightweight system for tech blogging.
 
   ## Table of Contents
 * [Features](#features)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Tests](#tests)
-* [Demonstration](#demonstration)
+* [Technoogy](#technology)
+* [Screenshot](#screenshot)
 
 ## Features
 User Management
@@ -22,8 +22,15 @@ Clone the repository and install any dependencies with NPM
 ## Usage
 Deploy on a compatible platform like Heroku
 
+## Technology
+JavaScript
+NODE.js
+Express.js
+Sequelize
+Express Session
+Handlebars
+BCrypt
+Heroku
+
 ## Screenshot
 ![Screenshot](./screenshot.png)
-
-## Demonstration
-Here is a [Live Demonstration](https://)
