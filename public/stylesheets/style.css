@@ -36,6 +36,10 @@ button:hover {
   background-color: #3486eb;
 }
 
+ul {
+  list-style: none;
+}
+
 .post-list {
   margin: 0;
   padding: 0;

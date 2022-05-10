@@ -30,7 +30,7 @@ Vote.belongsTo(User, {
 });
 
 Vote.belongsTo(Post, {
-    foreignKey: 'user_id'
+    foreignKey: 'post_id'
 });
 
 User.hasMany(Vote, {
@@ -38,7 +38,7 @@ User.hasMany(Vote, {
 });
 
 Post.hasMany(Vote, {
-    foreignKey: 'user_id'
+    foreignKey: 'post_id'
 });
 
 Comment.belongsTo(User, {
@@ -46,7 +46,7 @@ Comment.belongsTo(User, {
 });
 
 Comment.belongsTo(Post, {
-    foreignKey: 'user_id'
+    foreignKey: 'post_id'
 });
 
 User.hasMany(Comment, {
@@ -54,7 +54,7 @@ User.hasMany(Comment, {
 });
 
 Post.hasMany(Comment, {
-    foreignKey: 'user_id'
+    foreignKey: 'post_id'
 });
 
 module.exports = { User, Post, Vote, Comment };
