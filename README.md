@@ -3,7 +3,7 @@
 ## Description
 A lightweight system for tech blogging.
 
-  ## Table of Contents
+## Table of Contents
 * [Features](#features)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -27,6 +27,7 @@ Deploy on a compatible platform like Heroku
 JavaScript
 NODE.js
 Express.js
+MySQL
 Sequelize
 Express Session
 Handlebars
